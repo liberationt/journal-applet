@@ -1,0 +1,72 @@
+{
+  "id": "3735570",
+  "name": "khxt-uniapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12969232",
+      "name": "办公-目标",
+      "font_class": "bangong-mubiao",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "11537775",
+      "name": "合同s",
+      "font_class": "hetongs",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "20173052",
+      "name": "月度提成",
+      "font_class": "yueduticheng",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "577355",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e74a",
+      "unicode_decimal": 59210
+    },
+    {
+      "icon_id": "10063195",
+      "name": "刷新",
+      "font_class": "NMStubiao-",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "629357",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "887959",
+      "name": "首页-首页",
+      "font_class": "shouyeshouye",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "4572470",
+      "name": "我的",
+      "font_class": "sousuo",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "25996938",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial,
+    Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+}
+
+view,
+text,
+scroll-view,
+input,
+button,
+image,
+cover-view {
+  box-sizing: border-box;
+}
+
+// 解决iPhone x 以后的机型 底部安全区域的问题 https://jelly.jd.com/article/6006b1055b6c6a01506c87fd
+.safe-area-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.ybjt {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: transparent; /* 模块背景为透明 */
+  border-color: #999;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  margin-left: 3px;
+  transform: rotate(45deg); /*箭头方向可以自由切换角度*/
+}
+.xbjt {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: transparent; /* 模块背景为透明 */
+  border-color: #999;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  margin-left: 6px;
+  transform: rotate(135deg); /*箭头方向可以自由切换角度*/
+}

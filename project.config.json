@@ -1,0 +1,33 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "北方期刊小程序",
+  "description": "北方期刊小程序",
+  "appid": "wxe352f5ac707711e1",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "bigPackageSizeSupport": false,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "minifyWXML": false,
+    "minifyWXSS": true,
+    "ignoreUploadUnusedFiles": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.30.0",
+  "srcMiniprogramRoot": "dist/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

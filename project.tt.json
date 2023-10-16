@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "WechatAppDemo",
+  "appid": "wxe352f5ac707711e1",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}

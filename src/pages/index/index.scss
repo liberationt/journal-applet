@@ -1,0 +1,381 @@
+.scroll-view_H {
+  background-color: #f3f4f6;
+}
+.mainContent {
+  background: url('https://dcg-c-system.obs.cn-east-3.myhuaweicloud.com/a/56e8e4585ad647db83071065c2555034/educationBg.png')
+    no-repeat top;
+  background-size: 100%;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  .cameraMain {
+    background: #fff;
+    width: 265px;
+    height: 192px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    color: #999999;
+    .title {
+      font-family: PingFang SC;
+      font-size: 18px;
+      font-weight: 600;
+      color: #333333;
+      margin-bottom: 14px;
+    }
+    .authSetting {
+      width: 162px;
+      height: 40px;
+      border-radius: 21px;
+      background: #2f5de7;
+      font-family: PingFangSC-Semibold;
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff;
+      text-align: center;
+      line-height: 40px;
+      margin-top: 22px;
+    }
+  }
+}
+.userInfo {
+  height: 40px;
+  margin: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  .nut-button {
+    width: 100px;
+    font-size: 12px;
+    background: none;
+    color: #fff;
+    border: none;
+    height: 20px;
+  }
+  .userLeft {
+    display: flex;
+    align-items: center;
+    position: relative;
+    .openMember {
+      width: 110px;
+      margin-left: 25px;
+      height: 42px;
+      position: relative;
+      right: -30px;
+      background: url('https://dcg-c-system.obs.cn-east-3.myhuaweicloud.com/ctb/7d5cfbe427c54be6b61874aa028da94e/button.png')
+        no-repeat top;
+      background-size: 100% 100%;
+      .openTitle {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 16px;
+      }
+      image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .toMember {
+      padding: 5px;
+      margin-left: 150px;
+      .nut-icon {
+        font-size: 10px;
+      }
+    }
+    .defaultImg {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 8px;
+      vertical-align: middle;
+      image {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .leftRight {
+      vertical-align: middle;
+
+      // display: flex;
+      font-family: PingFangSC-Regular;
+      .textInfo {
+        display: flex;
+        align-items: center;
+        // color: #ffffff;
+        font-size: 14px;
+        .name {
+          width: 110px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 17px;
+          letter-spacing: 0px;
+
+          color: #333333;
+        }
+        .jb {
+          margin-left: 10px;
+          padding-top: 2px;
+          image {
+            width: 19px;
+            height: 17px;
+          }
+        }
+      }
+      .memberTime {
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 1px;
+        color: #666666;
+        height: 16px;
+        width: 120px;
+        line-height: 16px;
+      }
+    }
+  }
+}
+.pbTimer {
+  margin: 0 18px;
+  font-size: 12px;
+  color: #666666;
+  .days {
+    font-weight: bold;
+  }
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.subjectBox {
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  .box {
+    width: 36px;
+    display: inline-block;
+    margin-right: 20px;
+    opacity: 0.9;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    vertical-align: top;
+  }
+  image {
+    width: 36px;
+    height: 8px;
+    vertical-align: top;
+    margin-top: 2px;
+  }
+}
+.fixedScroll {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  // top: 50;
+  z-index: 999;
+}
+.margin50 {
+  margin-bottom: 70px;
+}
+.signMain {
+  // background: #fff;
+  width: 310px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 234px;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  border-radius: 18px;
+  font-family: PingFangSC-Regular;
+  .brand {
+    position: absolute;
+    transition: all 1s;
+    background: #fff;
+    border-radius: 18px;
+    /* 不显示背面 */
+    backface-visibility: hidden;
+    width: 310px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .card1 {
+  }
+  .card2 {
+    /* 默认显示正面 */
+    transform: rotateY(-180deg);
+  }
+  .closeBg {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: -40px;
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    image {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .signToast {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  .signTop {
+    width: 132px;
+    height: 123px;
+    position: relative;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    image {
+      width: 132px;
+      height: 123px;
+    }
+  }
+  .title {
+    position: absolute;
+    top: 83px;
+    font-family: PingFangSCBold-Bold;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    color: #333333;
+  }
+  .timer {
+    font-size: 15px;
+    color: #666666;
+  }
+  .submit {
+    font-family: PingFang SC;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    background: #0256ff;
+    border-radius: 22px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 178px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    margin: 30px auto 0;
+    color: #fff;
+  }
+  .successSign {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #666666;
+    .success {
+      width: 104px;
+      height: 104px;
+      image {
+        width: 104px;
+        height: 104px;
+      }
+    }
+    .successTitle {
+      font-family: PingFangSC-Medium;
+      font-size: 18px;
+      color: #333333;
+      margin: 20px 0 10px;
+    }
+  }
+}
+.upgrade-info {
+  width: 310px;
+  height: 450px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('https://dcg-c-system.obs.cn-east-3.myhuaweicloud.com/northern/upgrade-bg.png')
+    no-repeat;
+  background-size: 310px auto;
+  padding-top: 215px;
+  .upgrade-img {
+    width: 310px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .close-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    .close-img {
+      width: 34px;
+      height: 34px;
+    }
+  }
+  .upgrade-text {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    text-align: center;
+    color: #be802b;
+  }
+  .upgrade-btn-box {
+    margin-top: 54px;
+    .begin-learn {
+      margin: 0 auto;
+      width: 250px;
+      height: 45px;
+      border-radius: 22px;
+      background: #ff8700;
+      font-family: PingFangSC-Semibold;
+      font-size: 18px;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .change-upgrade {
+      margin: 0 auto;
+      width: 94px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: PingFangSC-Medium;
+      font-size: 16px;
+      color: #ff8700;
+    }
+  }
+}
